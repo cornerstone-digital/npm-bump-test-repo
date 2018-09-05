@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "bump": "semver-publish bump prerelease -i beta",
-    "release": "semver-publish release ."
+    "release": "semver-publish release"
   },
   "devDependencies": {
     "semver-publish": "https://github.com/cornerstone-digital/semver-publish.git"
