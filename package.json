@@ -1,0 +1,15 @@
+{
+  "name": "npm-bump-test-repo",
+  "version": "1.0.0-beta.10",
+  "main": "index.js",
+  "repository": "https://github.com/cornerstone-digital/npm-bump-test-repo",
+  "author": "Martin Egan <martingegan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "bump": "semver-publish bump prerelease -i beta",
+    "release": "semver-publish release ."
+  },
+  "devDependencies": {
+    "semver-publish": "https://github.com/cornerstone-digital/semver-publish.git"
+  }
+}

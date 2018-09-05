@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /Users/martinegan/.yarn/bin/yarn.js install
+
+PATH: 
+  /Users/martinegan/.sonar-scanner/:/Users/martinegan/.yarn/bin:/Users/martinegan/.config/yarn/global/node_modules/.bin:/Users/martinegan/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/martinegan/.sonar-scanner/:/Users/martinegan/.yarn/bin:/Users/martinegan/.config/yarn/global/node_modules/.bin:/Users/martinegan/bin
+
+Yarn version: 
+  1.9.2
+
+Node version: 
+  8.11.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/semver-publish: Not found
+      at Request.params.callback [as _callback] (/Users/martinegan/.yarn/lib/cli.js:64150:18)
+      at Request.self.callback (/Users/martinegan/.yarn/lib/cli.js:137416:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/martinegan/.yarn/lib/cli.js:138388:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/martinegan/.yarn/lib/cli.js:138310:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "npm-bump-test-repo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/cornerstone-digital/npm-bump-test-repo",
+    "author": "Martin Egan <martingegan@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "semver-publish": "github.com:cornerstone-digital/semver-publish.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
