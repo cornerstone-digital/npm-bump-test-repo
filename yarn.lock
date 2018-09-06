@@ -131,7 +131,7 @@ crypto-random-string@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
 
-debug@^3.1.0:
+debug@3.1.0, debug@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
@@ -433,11 +433,12 @@ semver-diff@^2.0.0:
     semver "^5.0.3"
 
 "semver-publish@https://github.com/cornerstone-digital/semver-publish.git":
-  version "3.1.0-next.2"
-  resolved "https://github.com/cornerstone-digital/semver-publish.git#fe1a0b95eb93fc2809d990ce2bb28938a5c77ec5"
+  version "1.0.1-next.11"
+  resolved "https://github.com/cornerstone-digital/semver-publish.git#dcea4e16791c4cf1503996537e780b82e45057ac"
   dependencies:
     bump-file "1.0.0"
     commander "2.17.1"
+    debug "3.1.0"
     shell-quote "1.6.1"
     shelljs "0.8.2"
     simple-git "1.96.0"
